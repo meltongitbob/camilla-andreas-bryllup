@@ -21,6 +21,7 @@ byId("reception-link").title = `Åbn ${w.reception.name} i Google Maps`;
 byId("wishes-link").href = w.wishListUrl;
 
 byId("timeline").innerHTML = w.timeline.map((item) => `<article class="timeline-item"><time>${item.time}</time><span class="dot" aria-hidden="true"></span><div><h3>${item.title}</h3><p>${placeLink(item.mapUrl, item.detail)}</p></div></article>`).join("");
-byId("practical-grid").innerHTML = w.practical.map(({title, text}) => `<article><h3>${title}</h3><p>${text}</p></article>`).join("");
+const practicalText = ({title, text}) => title === "Indslag og Taler" ? text.replace("60 24 92 84", '<a href="tel:60249284">60 24 92 84</a>').replace("kristian@ebbehoej.dk", '<a href="mailto:kristian@ebbehoej.dk">kristian@ebbehoej.dk</a>') : text;
+byId("practical-grid").innerHTML = w.practical.map((item) => `<article><h3>${item.title}</h3><p>${practicalText(item)}</p></article>`).join("");
 const person = ({name, phone, email}) => `<article><h3>${name}</h3><p><a href="tel:${phone.replace(/\s/g, "")}">${phone}</a><br><a href="mailto:${email}">${email}</a></p></article>`;
 byId("contacts").innerHTML = w.contact.map(person).join("");
