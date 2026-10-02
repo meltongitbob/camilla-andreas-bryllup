@@ -17,12 +17,14 @@ window.wedding = {
   ],
   practical: [
     { title: "Parkering", text: "Ved kroen: Der er gratis parkeringspladser i umiddelbar tilknytning til selve kroen og på de afmærkede P-pladser langs vejen." },
-    { title: "Dresscode", text: "Lækreste outfit." },
-    { title: "Svar udbedes", text: "31. marts 2027 til Andreas eller Camilla." },
-    { title: "Indslag og taler", text: "Meldes til toastmaster Kristian senest 1. maj." }
+    { title: "Dresscode", text: "Flot tøj til en flot dag." },
+    { title: "Transport", text: "Bus 183 kører fra Lyngby St. til Raadvad. Herfra er der 450 meter til kroen. Biler kan afhentes næste dag." },
+    { title: "Indslag og taler", text: "Skulle nogen ønske at sige et enkelt ord, kan vores toastmaster kontaktes." },
+    { title: "Toastmaster", text: "Kristian Ebbehøj · 60 24 92 84 · kristian@ebbehoej.dk" },
+    { title: "S.U.", text: "Senest 31. marts 2027 til Andreas eller Camilla. Giv gerne samtidig besked, hvis der er allergener eller andet, vi skal tage hensyn til." }
   ],
+  wishText: "Vi ønsker os først og fremmest en uforglemmelig aften med jer. Vi har derudover lavet en ønskeliste, som I kan finde her:",
   wishListUrl: "https://onskeskyen.dk/s/eu96t2",
-  toastmaster: { name: "Kristian Ebbehøj", phone: "60 24 92 84", email: "kristian@ebbehoej.dk" },
   contact: [
     { name: "Andreas", phone: "20 65 58 48", email: "melton615@gmail.com" },
     { name: "Camilla", phone: "50 40 34 70", email: "camillajohansen92@gmail.com" }
