@@ -1,24 +1,30 @@
-// EDIT THIS FILE: all wedding details are gathered here.
+// Redigér tekst, tider og kontaktoplysninger her.
 window.wedding = {
   couple: "Camilla & Andreas",
-  date: "Lørdag den [dato]",
-  hero: "Vi glæder os til at fejre kærligheden sammen med jer",
-  invitation: "Kære familie og venner — I er hjerteligt inviteret til vores bryllup.",
-  rsvpDeadline: "[svarfrist]",
-  rsvpLink: "mailto:[jeres-email]?subject=RSVP%20Camilla%20%26%20Andreas",
-  wishLink: "https://onskeskyen.dk",
-  toastmaster: { name: "[toastmasters navn]", phone: "[telefonnummer]", email: "[email]" },
-  schedule: [
-    ["13.00", "Vielse", "Virum Kirke"],
-    ["14.00", "Reception", "Raadvad Kro"],
-    ["18.00", "Middag", "Raadvad Kro"],
-    ["23.30", "Brudevals", "Raadvad Kro"],
-    ["", "Fest", "Vi danser natten lang"],
+  firstName: "CAMILLA",
+  secondName: "ANDREAS",
+  date: "5. JUNI 2027",
+  footerDate: "5. juni 2027",
+  introduction: "Vi skal giftes",
+  ceremony: { name: "Virum Kirke", mapUrl: "https://maps.app.goo.gl/FruPF31eQ453WjeH9" },
+  reception: { name: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
+  timeline: [
+    { time: "13.00", title: "Vielse", detail: "Virum Kirke", mapUrl: "https://maps.app.goo.gl/FruPF31eQ453WjeH9" },
+    { time: "Efter vielsen", title: "Reception", detail: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
+    { time: "18.00", title: "Middag", detail: "Vi går til bords" },
+    { time: "Inden midnat", title: "Brudevals", detail: "På dansegulvet" },
+    { time: "00.00", title: "Fest", detail: "Vi danser videre" }
   ],
   practical: [
-    { title: "Adresser & transport", text: "Vielsen foregår i Virum Kirke, hvorefter vi fortsætter til Raadvad Kro. Find praktiske anvisninger og parkering her, når de er klar." },
-    { title: "Påklædning", text: "Kom, som I føler jer festlige og godt tilpas. Vi glæder os til at se jer." },
-    { title: "Mad & hensyn", text: "Skriv gerne allergier eller særlige kosthensyn i jeres svar på invitationen." },
-    { title: "Overnatning", text: "Information om overnatning og transport hjem opdateres her." }
+    { title: "Parkering", text: "Ved kroen: Der er gratis parkeringspladser i umiddelbar tilknytning til selve kroen og på de afmærkede P-pladser langs vejen." },
+    { title: "Dresscode", text: "Lækreste outfit." },
+    { title: "Svar udbedes", text: "31. marts 2027 til Andreas eller Camilla." },
+    { title: "Indslag og taler", text: "Meldes til toastmaster Kristian senest 1. maj." }
+  ],
+  wishListUrl: "https://onskeskyen.dk/s/eu96t2",
+  toastmaster: { name: "Kristian Ebbehøj", phone: "60 24 92 84", email: "kristian@ebbehoej.dk" },
+  contact: [
+    { name: "Andreas", phone: "20 65 58 48", email: "melton615@gmail.com" },
+    { name: "Camilla", phone: "50 40 34 70", email: "camillajohansen92@gmail.com" }
   ]
 };
