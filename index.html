@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bryllupshjemmeside for Camilla & Andreas" />
+  <title>Camilla & Andreas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="top"><nav><a href="#dagen">Dagen</a><a href="#praktisk">Praktisk</a><a href="#onsker">Ønsker</a><a href="#kontakt">Kontakt</a></nav>
+    <div class="hero-copy"><p class="eyebrow">Vi skal giftes</p><h1 id="couple"></h1><p class="hero-date" id="date"></p><p class="hero-message" id="hero"></p><a class="button" href="#dagen">Se dagens program</a></div>
+    <img class="floral hero-floral" src="meadow-flowers.png" alt="Akvarel af margueritter, blå klokker og græsser" />
+  </header>
+  <main>
+    <section class="intro"><p class="eyebrow">En dag at huske</p><h2 id="invitation"></h2><p>Vi håber, at I vil være med, når vi siger ja til hinanden og fejrer dagen med god mad, varme kram og dans.</p></section>
+    <section class="schedule-section" id="dagen"><p class="eyebrow">Dagens program</p><h2>Sådan folder dagen sig ud</h2><div id="schedule" class="schedule"></div></section>
+    <section class="practical" id="praktisk"><div><p class="eyebrow">Praktisk information</p><h2>Det, der er godt at vide</h2><p>Vi opdaterer løbende denne side, så alle detaljer er samlet ét sted.</p></div><div id="practical-cards" class="cards"></div></section>
+    <section class="rsvp"><img class="floral rsvp-floral" src="meadow-flowers.png" alt="" /><p class="eyebrow">Svar på invitationen</p><h2>Kan I komme?</h2><p>Giv os venligst besked senest <strong id="deadline"></strong>.</p><a id="rsvp" class="button light" href="#">Svar her</a></section>
+    <section class="wishes" id="onsker"><p class="eyebrow">Ønsker</p><h2>Jeres selskab er den største gave</h2><p>For dem, der spørger, har vi samlet nogle ønsker på Ønskeskyen.</p><a id="wishes-link" class="text-link" target="_blank" rel="noreferrer">Se vores ønskeliste ↗</a></section>
+    <section class="contact" id="kontakt"><p class="eyebrow">Toastmaster</p><h2>Et indslag til festen?</h2><p>Kontakt vores toastmaster <strong id="toast-name"></strong> for taler, sange og andre festlige indslag.</p><p><a id="toast-phone"></a><br><a id="toast-email"></a></p></section>
+  </main><footer><p id="footer-couple"></p><a href="#top">Til toppen ↑</a></footer><script src="content.js"></script><script src="main.js"></script>
+</body></html>
