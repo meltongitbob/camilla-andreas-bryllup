@@ -16,11 +16,9 @@ window.wedding = {
     { time: "00.00", title: "Fest", detail: "Vi danser videre" }
   ],
   practical: [
-    { title: "Parkering", text: "Ved kroen: Der er gratis parkeringspladser i umiddelbar tilknytning til selve kroen og på de afmærkede P-pladser langs vejen." },
+    { title: "Transport og Parkering", text: "Bus 183 kører fra Lyngby St. til Raadvad. Herfra er der 450 meter til kroen. Ved kroen er der gratis parkeringspladser i umiddelbar tilknytning til selve kroen og på de afmærkede P-pladser langs vejen. Biler kan afhentes næste dag." },
     { title: "Dresscode", text: "Flot tøj til en flot dag." },
-    { title: "Transport", text: "Bus 183 kører fra Lyngby St. til Raadvad. Herfra er der 450 meter til kroen. Biler kan afhentes næste dag." },
-    { title: "Indslag og taler", text: "Skulle nogen ønske at sige et enkelt ord, kan vores toastmaster kontaktes." },
-    { title: "Toastmaster", text: "Kristian Ebbehøj · 60 24 92 84 · kristian@ebbehoej.dk" },
+    { title: "Indslag og Taler", text: "Skulle nogen ønske at sige et enkelt ord, kan vores toastmaster Kristian Ebbehøj kontaktes på 60 24 92 84 eller kristian@ebbehoej.dk." },
     { title: "S.U.", text: "Senest 31. marts 2027 til Andreas eller Camilla. Giv gerne samtidig besked, hvis der er allergener eller andet, vi skal tage hensyn til." }
   ],
   wishText: "Vi ønsker os først og fremmest en uforglemmelig aften med jer. Vi har derudover lavet en ønskeliste, som I kan finde her:",
