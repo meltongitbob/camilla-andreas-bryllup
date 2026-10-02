@@ -9,7 +9,7 @@ setText("first-name", w.firstName);
 setText("second-name", w.secondName);
 setText("date", w.date);
 setText("footer-couple", w.couple);
-setText("footer-date", w.footerDate);
+setText("footer-date", w.footerDate);\nsetText("wish-copy", w.wishText);
 byId("ceremony-link").href = w.ceremony.mapUrl; byId("ceremony-link").innerHTML = `${w.ceremony.name}${mapIcon}`; byId("ceremony-link").title = `Åbn ${w.ceremony.name} i Google Maps`;
 byId("reception-link").href = w.reception.mapUrl; byId("reception-link").innerHTML = `${w.reception.name}${mapIcon}`; byId("reception-link").title = `Åbn ${w.reception.name} i Google Maps`;
 byId("wishes-link").href = w.wishListUrl;
