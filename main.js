@@ -9,13 +9,18 @@ setText("first-name", w.firstName);
 setText("second-name", w.secondName);
 setText("date", w.date);
 setText("footer-couple", w.couple);
-setText("footer-date", w.footerDate);\nsetText("wish-copy", w.wishText);
-byId("ceremony-link").href = w.ceremony.mapUrl; byId("ceremony-link").innerHTML = `${w.ceremony.name}${mapIcon}`; byId("ceremony-link").title = `Åbn ${w.ceremony.name} i Google Maps`;
-byId("reception-link").href = w.reception.mapUrl; byId("reception-link").innerHTML = `${w.reception.name}${mapIcon}`; byId("reception-link").title = `Åbn ${w.reception.name} i Google Maps`;
+setText("footer-date", w.footerDate);
+setText("wish-copy", w.wishText);
+
+byId("ceremony-link").href = w.ceremony.mapUrl;
+byId("ceremony-link").innerHTML = `${w.ceremony.name}${mapIcon}`;
+byId("ceremony-link").title = `Åbn ${w.ceremony.name} i Google Maps`;
+byId("reception-link").href = w.reception.mapUrl;
+byId("reception-link").innerHTML = `${w.reception.name}${mapIcon}`;
+byId("reception-link").title = `Åbn ${w.reception.name} i Google Maps`;
 byId("wishes-link").href = w.wishListUrl;
 
 byId("timeline").innerHTML = w.timeline.map((item) => `<article class="timeline-item"><time>${item.time}</time><span class="dot" aria-hidden="true"></span><div><h3>${item.title}</h3><p>${placeLink(item.mapUrl, item.detail)}</p></div></article>`).join("");
 byId("practical-grid").innerHTML = w.practical.map(({title, text}) => `<article><h3>${title}</h3><p>${text}</p></article>`).join("");
-const person = ({name, phone, email}) => `<article><h3>${name}</h3><p><a href="tel:${phone.replace(/\\s/g, "")}">${phone}</a><br><a href="mailto:${email}">${email}</a></p></article>`;
-byId("toastmaster").innerHTML = person(w.toastmaster);
+const person = ({name, phone, email}) => `<article><h3>${name}</h3><p><a href="tel:${phone.replace(/\s/g, "")}">${phone}</a><br><a href="mailto:${email}">${email}</a></p></article>`;
 byId("contacts").innerHTML = w.contact.map(person).join("");
