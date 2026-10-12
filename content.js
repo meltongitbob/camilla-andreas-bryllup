@@ -6,13 +6,13 @@ window.wedding = {
   date: "5. JUNI 2027",
   footerDate: "5. juni 2027",
   introduction: "Vi skal giftes",
-  ceremony: { name: "Virum Kirke", mapUrl: "https://maps.app.goo.gl/FruPF31eQ453WjeH9" },
+  ceremony: { name: "Bagsværd Kirke", mapUrl: "https://www.google.com/maps/search/?api=1&query=Bagsv%C3%A6rd+Kirke" },
   reception: { name: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
   timeline: [
-    { time: "13.00", title: "Vielse", detail: "Virum Kirke", mapUrl: "https://maps.app.goo.gl/FruPF31eQ453WjeH9" },
-    { time: "Efter vielsen", title: "Reception", detail: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
-    { time: "18.00", title: "Middag", detail: "Vi går til bords" },
-    { time: "Inden midnat", title: "Brudevals", detail: "På dansegulvet" },
+    { time: "14.00", title: "Vielse", detail: "Bagsværd Kirke", mapUrl: "https://www.google.com/maps/search/?api=1&query=Bagsv%C3%A6rd+Kirke" },
+    { time: "15.00", title: "Reception", detail: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
+    { time: "17.30", title: "Middag", detail: "Vi går til bords" },
+    { time: "23.30", title: "Brudevals", detail: "På dansegulvet" },
     { time: "00.00", title: "Fest", detail: "Vi danser videre" }
   ],
   practical: [
