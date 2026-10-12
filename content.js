@@ -10,10 +10,12 @@ window.wedding = {
   reception: { name: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
   timeline: [
     { time: "14.00", title: "Vielse", detail: "Bagsværd Kirke", mapUrl: "https://www.google.com/maps/search/?api=1&query=Bagsv%C3%A6rd+Kirke" },
-    { time: "15.00", title: "Reception", detail: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
+    { time: "15.30", title: "Reception", detail: "Raadvad Kro", mapUrl: "https://maps.app.goo.gl/bSJp3nUbBpWtcBUN6" },
     { time: "17.30", title: "Middag", detail: "Vi går til bords" },
     { time: "23.30", title: "Brudevals", detail: "På dansegulvet" },
-    { time: "00.00", title: "Fest", detail: "Vi danser videre" }
+    { time: "00.00", title: "Fest", detail: "Vi danser videre" },
+    { time: "02.00", title: "Natmad", detail: "Vi tager en pause fra dansegulvet" },
+    { time: "04.30", title: "Sidste udskænkning", detail: "Tak for en skøn fest" }
   ],
   practical: [
     { title: "Transport og Parkering", text: "Bus 183 kører fra Lyngby St. til Raadvad. Herfra er der 450 meter til kroen. Ved kroen er der gratis parkeringspladser i umiddelbar tilknytning til selve kroen og på de afmærkede P-pladser langs vejen. Biler kan afhentes næste dag. Vi håber, at I bliver og fester hele natten." },
